@@ -9,11 +9,14 @@ namespace _9_Escopo
             Console.WriteLine("Executando o projeto 9 - Escopo");
             int idade = 18;
             bool acompanhado = true;
-            string mensagemAdicional;
 
             if (acompanhado == true)
             {
-                mensagemAdicional = "João está acompanhado";
+               string mensagemAdicional = "João está acompanhado";
+            }
+            else
+            {
+                string mensagemAdicional = "João não está acompanhado";
             }
 
             if (idade >= 18 || acompanhado == true)
