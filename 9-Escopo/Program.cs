@@ -12,11 +12,9 @@ namespace _9_Escopo
             string mensagemAdicional;
 
             if (acompanhado == true)
-
                 mensagemAdicional = "João está acompanhado";
 
             else
-
                 mensagemAdicional = "João não está acompanhado";
 
 
