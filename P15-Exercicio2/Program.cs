@@ -6,11 +6,12 @@ namespace P15_Exercicio2
     {
         static void Main(string[] args)
         {
-            int fatorial = 1;
+            int n = 1;
+
             for (int i = 1; i <= 10; i++)
             {
-                fatorial *= i;
-                Console.WriteLine($"O fatorial de {i}, é = {fatorial}");
+                n = i * n;
+                Console.WriteLine($"O fatorial de {i}, é = {n}");
             }
         }
     }
